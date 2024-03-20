@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #f1f0f5;
+  height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.remove-btn{
+  font-size: large;
+  font-weight: bold;
+  border: none;
+  margin-right: 12rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.App button:hover{
+  background-color: black;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+.cont{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+.cont p{
+  font-size: 18px;
+  font-weight: 900px;
+  margin: 1rem auto;
+  max-width: 950px;
+  text-align: center !important;
+  line-height: 1.75rem;
+}
+/* .ta0{
+  display: flex; 
+  height: 100vh;
+  margin-top: 15rem;
+  margin-left: 10rem;   
+}*/
+fieldset{
+  height: 840px;
+  max-width: 100%;
+  border-radius: 10px;
+  border: none;
+  background-color: #ffffff;
+}
+.right{
+  display: flex;
+}
+.ta1{
+  height: 25rem;
+  width: 55rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-style: dashed;
+  border-radius: 10px;
+  margin: 1rem 1rem;
+
+}
+.ta1 p{
+  text-align: center;
+  margin-top: 1rem;
+  line-height: 1.5rem;
+}
+ul{
+  display: flex;
+  margin: 10px 0px;
+}
+ul li{
+  font-size: 14px;
+  margin-left: 4px;
+  padding: 4px 6px;
+  list-style: none;
+}
+.li1{
+  color: green;
+  border-radius: 5px;
+  background-color: #d5eedb;
+}
+.li2{
+  color: #355cb2;
+  border-radius: 5px;
+  background-color: #cde5ff;
+}
+.li3{
+  color: #6e5558;
+  border-radius: 5px;
+  background-color: #e2e4e6;
+}
+.li4{
+  color: #2ca5d2;
+  border-radius: 5px;
+  background-color: #d2edf1;
+}
+.li5{
+  color: #e8a728;
+  border-radius: 5px;
+  background-color: #fff3ce;
+}
+.li6{
+  color: #c83a31;
+  border-radius: 5px;
+  background-color: #f8d7db;
+}
+.li7{
+  color: #69871e;
+  border-radius: 5px;
+  background-color: #e3f3bc;
+}
+.li8{
+  color: #973bca;
+  border-radius: 5px;
+  background-color: #f6cdf6;
+}
+.or{
+  margin-top: 0.5rem;
+}
+.secure-file{
+  display: flex;
+  margin-top: 1rem;
+
+}
+.choosefile{
+  color: #fff;
+  background-color: black;
+}
+.uf{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.uploadBtn{
+  font-size: 16px;
+  background-color: white;
+  border-radius: 50px;
+  margin-top: 1rem;
+  box-shadow: 5px 5px 10px black;
+  width: 350px;
+  outline: none;
+}
+::-webkit-file-upload-button{
+  color: white;
+  background-color: #206a5d;
+  padding: 20px;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 1px 1px #6b4559;
+  outline: none;
+}
+::-webkit-file-upload-button:hover{
+  background-color: #438a5e;
+}
+/* label{
+  margin: 5px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  user-select: none;
+  cursor: pointer;
+} */
+.huBtn{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+/* .huBtn button{
+  color: #fff;
+  background-color: black;
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+} 
+ */
+.removeimg{
+  height: 250px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+}
+.card{
+  height: 27rem;
+  width: 21rem;
+  margin-top: 1rem;
+  background-color: #f2f0f5;
+}
+.card label{
+  color: black;
+  font-size: 24px;
+  margin-top: 1rem;
+}
+.cardheader{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.carditem{
+  display: flex;
+  flex-direction: column;
+  margin-top: .25rem;
+}
+.carditem p{
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+.carditem span{
+  margin-left: 2rem;
+  margin-top: .75rem;
+  font-size: 18px;
+}
+.cardbtn{
+display: flex;
+justify-content: center;
+}
+.cardbtn button{
+  margin-top: 1.5rem;
+  font-size: 18px;
+  padding: 10px 15px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  width: 80%;
+}
+.download-btn{
+  width: 100%;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+}
+/* .download-btn button{
+  color: #fff;
+  background-color: black;
+  padding: 12px 25px;
+  font-size: 18px;
+  margin-top: 4rem;
+  margin-left: 2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+} */
+.final_img_area{
+  height: 250px;
+  width: 250px;
+  margin-top: 3rem;
+  margin-left: 6rem;
+  overflow-y: scroll;
+  display: flex;
+  justify-content: center;
+}
